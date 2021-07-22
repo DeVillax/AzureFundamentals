@@ -70,3 +70,86 @@ Example usage scenarios for the archive access tier include:
 ✑ Long-term backup, secondary backup, and archival datasets
 ✑ Original (raw) data that must be preserved, even after it has been processed into final usable form.
 ✑ Compliance and archival data that needs to be stored for a long time and is hardly ever accessed.
+
+You need a minimum of two virtual machines with each one located in a different availability zone.
+Availability Zones is a high-availability offering that protects your applications and data from datacenter failures. Availability Zones are unique physical locations within an Azure region. Each zone is made up of one or more datacenters equipped with independent power, cooling, and networking. To ensure resiliency, thereג€™s a minimum of three separate zones in all enabled regions. The physical separation of Availability Zones within a region protects applications and data from datacenter failures. Zone-redundant services replicate your applications and data across Availability Zones to protect from single-points-of-failure. With Availability
+Zones, Azure offers industry best 99.99% VM uptime SLA.
+
+Azure Monitor collects events from resources and transfers them to Azure Event Hubs which processes them for any other SIEM. Azure Event Hubs is a streaming platform and event ingestion service. It can transform and store data using any real-time analytics provider or batching/storage adapters. Use Event Hubs to stream Azure Monitor data to partner SIEM and monitoring tools
+
+Availability Zones is a high-availability offering that protects your applications and data from datacenter failures. Availability Zones are unique physical locations within an Azure region.
+
+There are different replication options available with a storage account. The ג€˜minimumג€™ replication option is Locally Redundant Storage (LRS). With LRS, data is replicated synchronously three times within the primary region.
+
+Data is not backed up automatically to another Azure Data Center although it can be depending on the replication option configured for the account. Locally
+Redundant Storage (LRS) is the default which maintains three copies of the data in the data center.
+Geo-redundant storage (GRS) has cross-regional replication to protect against regional outages. Data is replicated synchronously three times in the primary region, then replicated asynchronously to the secondary region.
+
+The current storage limit is 2 PB for US and Europe, and 500 TB for all other regions (including the UK) with no limit on the number of files.
+
+North America has several Azure regions, including West US, Central US, South Central US, East Us, and Canada East. 
+
+A region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.
+
+Outbound data transfer is charged at the normal rate and inbound data transfer is free.
+
+Azure virtual machine scale sets let you create and manage a group of load balanced VMs. The number of VM instances can automatically increase or decrease in response to demand or a defined schedule. Scale sets provide high availability to your applications, and allow you to centrally manage, configure, and update many VMs.
+Virtual machines in a scale set can be deployed across multiple update domains and fault domains to maximize availability and resilience to outages due to data center outages, and planned or unplanned maintenance events.
+
+Azure Service Health provides a personalized view of the health of the Azure services and regions you're using. This is the best place to look for service impacting communications about outages, planned maintenance activities, and other health advisories because the authenticated Service Health experience knows which services and resources you currently use.
+
+You can use Azure Resource Manager templates to automate the creation of the Azure resources. Deploying resource through templates is known as
+ג€˜Infrastructure as codeג€™.
+To implement infrastructure as code for your Azure solutions, use Azure Resource Manager templates. The template is a JavaScript Object Notation (JSON) file that defines the infrastructure and configuration for your project. The template uses declarative syntax, which lets you state what you intend to deploy without having to write the sequence of programming commands to create it. In the template, you specify the resources to deploy and the properties for those resources.
+
+Azure Functions provides the platform for serverless code.
+Azure Functions is a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure.
+
+Azure Databricks is a big analysis service for machine learning.
+Azure Databricks is an Apache Spark-based analytics platform. The platform consists of several components including ג€˜MLibג€™. Mlib is a Machine Learning library consisting of common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction, as well as underlying optimization primitives.
+
+Azure Application Insights detects and diagnoses anomalies in web apps.
+Application Insights, a feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals.
+Use it to monitor your live applications. It will automatically detect performance anomalies, and includes powerful analytics tools to help you diagnose issues and to understand what users actually do with your app.
+
+Azure App Service hosts web apps.
+Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it
+.NET, .NET Core, Java, Ruby, Node.js, PHP, or Python. Applications run and scale with ease on both Windows and Linux-based environments.
+
+
+DevTest Labs creates labs consisting of pre-configured bases or Azure Resource Manager templates.
+By using DevTest Labs, you can test the latest versions of your applications by doing the following tasks:
+✑ Quickly provision Windows and Linux environments by using reusable templates and artifacts.
+✑ Easily integrate your deployment pipeline with DevTest Labs to provision on-demand environments.
+✑ Scale up your load testing by provisioning multiple test agents and create pre-provisioned environments for training and demos.
+
+ For Windows the Azure CLI is installed via an MSI, which gives you access to the CLI through the Windows Command Prompt (CMD) or PowerShell.
+ 
+Azure Cloud Shell is a browser-based shell experience to manage and develop Azure resources.
+Cloud Shell offers a browser-accessible, pre-configured shell experience for managing Azure resources without the overhead of installing, versioning, and maintaining a machine yourself.
+Being browser-based, Azure Cloud Shell can be run on a browser from a tablet that runs the Android operating system.
+
+PowerApps lets you quickly build business applications with little or no code. It is not used to create Azure virtual machines. Therefore, this solution does not meet the goal.
+PowerApps Portals allow organizations to create websites which can be shared with users external to their organization either anonymously or through the login provider of their choice like LinkedIn, Microsoft Account, other commercial login providers.
+
+The Azure portal is a web-based, unified console that provides an alternative to command-line tools. With the Azure portal, you can manage your Azure subscription using a graphical user interface. You can build, manage, and monitor everything from simple web apps to complex cloud deployments. Create custom dashboards for an organized view of resources. Configure accessibility options for an optimal experience.
+Being web-based, the Azure portal can be run on a browser from a tablet that runs the Android operating system.
+
+Azure Monitor maximizes the availability and performance of your applications and services by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments. Azure Monitor uses Target Resource, which is the scope and signals available for alerting. A target can be any Azure resource. Example targets: a virtual machine, a storage account, a virtual machine scale set, a Log Analytics workspace, or an Application Insights resource.
+
+Azure Repos is a set of version control tools that you can use to manage your code.
+
+In the Azure virtual machines page in the Azure portal, there is a named Maintenance Status. This column will display service issues that could affect your virtual machine. A service failure is rare but host server maintenance that could affect your virtual machines is more common.
+Azure periodically updates its platform to improve the reliability, performance, and security of the host infrastructure for virtual machines. The purpose of these updates ranges from patching software components in the hosting environment to upgrading networking components or decommissioning hardware.
+
+With the Azure Cloud Shell, you can run PowerShell cmdlets and scripts in a Web browser. You log in to the Azure Portal and select the Azure Cloud Shell option.
+This will open a PowerShell session in the Web browser. The Azure Cloud Shell has the necessary Azure PowerShell module installed.
+
+Azure Service Health consists of three components: Azure Status, Azure Service Heath and Azure Resource Health.
+Azure service health provides a personalized view of the health of the Azure services and regions you're using. This is the best place to look for service impacting communications about outages, planned maintenance activities, and other health advisories because the authenticated Azure Service Health experience knows which services and resources you currently use.
+To view the health of all other services available in Azure, you would use the Azure Status component of Azure Service Health. Azure status informs you of service outages in Azure on the Azure Status page. The page is a global view of the health of all Azure services across all Azure regions.
+
+The best way to use Service Health is to set up Service Health alerts to notify you via your preferred communication channels when service issues, planned maintenance, or other changes may affect the Azure services and regions you use.
+You can use Resource Health to view the health of a virtual machine. However, you cannot use Resource Health to prevent a service failure affecting the virtual machine.
+Azure resource health provides information about the health of your individual cloud resources such as a specific virtual machine instance.
+
