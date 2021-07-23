@@ -264,3 +264,40 @@ In this question, we need to add a rule to a network security group or Azure Fir
 You would use the Azure Activity Log, not Access Control to view which user turned off a specific virtual machine during the last 14 days.
 Activity logs are kept for 90 days. You can query for any range of dates, as long as the starting date isn't more than 90 days in the past.
 In this question, we would create a filter to display shutdown operations on the virtual machine in the last 14 days.
+
+An Azure Policy initiative definition is a collection of policy definitions.
+
+You can add an ARM template to an Azure blueprint
+You cannot assign an Azure blueprint to a resource group
+You can use Azure Blueprints to grant permissions to a resource
+
+An Azure resource can have multiple Delete locks
+An azure resource inherits locks from its resource group
+If an Azure resource has a Read-only lock, you can add a Delete lock to the resource
+
+You can view a list of compliance certifications in the Trust Center to determine whether Azure meets your regional requirements.
+
+Authorization to access Azure resources can be provided by other identity providers by using federation. A commonly used example of this is to federate your on- premises Active Directory environment with Azure AD and use this federation for authentication and authorization
+
+As described above, third-party cloud services and on-premises Active Directory can be used to access Azure resources. This is known as ג€˜federationג€™.
+Federation is a collection of domains that have established trust. The level of trust may vary, but typically includes authentication and almost always includes authorization. A typical federation might include a number of organizations that have established trust for shared access to a set of resources.
+
+Azure Active Directory (Azure AD) is a centralized identity provider in the cloud. This is the primary built-in authentication and authorization service to provide secure access to Azure resources.
+
+Azure Germany is available to eligible customers and partners globally who intend to do business in the EU/EFTA, including the United Kingdom.
+Azure Germany offers a separate instance of Microsoft Azure services from within German datacenters. The datacenters are in two locations, Frankfurt/Main and
+Magdeburg. This placement ensures that customer data remains in Germany and that the datacenters connect to each other through a private network. All customer data is exclusively stored in those datacenters. A designated German company--the German data trustee--controls access to customer data and the systems and infrastructure that hold customer data.
+
+Azure Information Protection can encrypt documents and emails.
+Azure Information Protection is a cloud-based solution that helps an organization to classify and optionally, protect its documents and emails by applying labels.
+Labels can be applied automatically by administrators who define rules and conditions, manually by users, or a combination where users are given recommendations.
+The protection technology uses Azure Rights Management (often abbreviated to Azure RMS). This technology is integrated with other Microsoft cloud services and applications, such as Office 365 and Azure Active Directory.
+This protection technology uses encryption, identity, and authorization policies. Similarly to the labels that are applied, protection that is applied by using Rights
+Management stays with the documents and emails, independently of the location ג€" inside or outside your organization, networks, file servers, and applications.
+
+Compliance Manager in the Service Trust Portal is a workflow-based risk assessment tool that helps you track, assign, and verify your organization's regulatory compliance activities related to Microsoft Cloud services, such as Microsoft 365, Dynamics 365, and Azure.
+
+Azure Information Protection is used to automatically add a watermark to Microsoft Word documents that contain credit card information.
+You use Azure Information Protection labels to apply classification to documents and emails. When you do this, the classification is identifiable regardless of where the data is stored or with whom itג€™s shared. The labels can include visual markings such as a header, footer, or watermark.
+
+ The Microsoft Privacy Statement explains what personal data Microsoft processes, how Microsoft processes the data, and the purpose of processing the data
