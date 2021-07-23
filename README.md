@@ -153,3 +153,68 @@ The best way to use Service Health is to set up Service Health alerts to notify 
 You can use Resource Health to view the health of a virtual machine. However, you cannot use Resource Health to prevent a service failure affecting the virtual machine.
 Azure resource health provides information about the health of your individual cloud resources such as a specific virtual machine instance.
 
+Azure DevOps is Microsoftג€™s primary software development and deployment platform.
+DevOps influences the application lifecycle throughout its plan, develop, deliver and operate phases.
+
+Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry and then recommends solutions that can help you improve the cost effectiveness, performance, high availability, and security of your Azure resources.
+
+Azure Cognitive Services are APIs, SDKs, and services available to help developers build intelligent applications without having direct AI or data science skills or knowledge. Azure Cognitive Services enable developers to easily add cognitive features into their applications. The goal of Azure Cognitive Services is to help developers create applications that can see, hear, speak, understand, and even begin to reason. The catalog of services within Azure Cognitive Services can be categorized into five main pillars - Vision, Speech, Language, Web Search, and Decision.
+
+Azure Application Insights detects and diagnoses anomalies in web apps.
+Application Insights, a feature of Azure Monitor, is an extensible Application Performance Management (APM) service for developers and DevOps professionals.
+Use it to monitor your live applications. It will automatically detect performance anomalies, and includes powerful analytics tools to help you diagnose issues and to understand what users actually do with your app.
+
+SQL Server is a relational database service. Azure SQL Database is a managed SQL Server Database in Azure. The SQL Server is managed by Microsoft; you just have access to the database.
+
+Azure SQL Synapse Analytics (previously called Data Warehouse) is a cloud-based Platform-as-a-Service (PaaS) offering from Microsoft. It is a large-scale, distributed, MPP (massively parallel processing) relational database technology in the same class of competitors as Amazon Redshift or Snowflake. Azure SQL
+Synapse Analytics is an important component of the Modern Data Warehouse multi-platform architecture. Because Azure SQL Synapse Analytics is an MPP system with a shared-nothing architecture across distributions, it is meant for large-scale analytical workloads which can take advantage of parallelism.
+
+You can process big data jobs in seconds with Azure Data Lake Analytics. You can process petabytes of data for diverse workload categories such as querying,
+ETL, analytics, machine learning, machine translation, image processing and sentiment analysis by leveraging existing libraries written in .NET languages, R or
+Python.
+
+Apache Hadoop was the original open-source framework for distributed processing and analysis of big data sets on clusters. The Hadoop ecosystem includes related software and utilities, including Apache Hive, Apache HBase, Spark, Kafka, and many others.
+Azure HDInsight is a fully managed, full-spectrum, open-source analytics service in the cloud for enterprises. The Apache Hadoop cluster type in Azure HDInsight allows you to use HDFS, YARN resource management, and a simple MapReduce programming model to process and analyze batch data in parallel.
+
+Azure Monitor is used to monitor the health of Azure services.
+Azure Monitor maximizes the availability and performance of your applications and services by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments. It helps you understand how your applications are performing and proactively identifies issues affecting them and the resources they depend on.
+
+You can browse available virtual machine images in the Azure Marketplace.
+Azure Marketplace provides access and information on solutions and services available from Microsoft and their partners. Customers can discover, try, or buy cloud software solutions built on or for Azure. The catalog of 8,000+ listings provides Azure building blocks, such as Virtual Machines (VMs), APIs, Azure apps,
+Solution Templates and managed applications, SaaS apps, containers, and consulting services.
+
+Azure Advisor displays security recommendations.
+Azure Advisor provides you with a consistent, consolidated view of recommendations for all your Azure resources. It integrates with Azure Security Center to bring you security recommendations. You can get security recommendations from the Security tab on the Advisor dashboard.
+Security Center helps you prevent, detect, and respond to threats with increased visibility into and control over the security of your Azure resources. It periodically analyzes the security state of your Azure resources. When Security Center identifies potential security vulnerabilities, it creates recommendations. The recommendations guide you through the process of configuring the controls you need.
+
+Azure Logic Apps is a cloud service that helps you schedule, automate, and orchestrate tasks, business processes, and workflows when you need to integrate apps, data, systems, and services across enterprises or organizations. Logic Apps simplifies how you design and build scalable solutions for app integration, data integration, system integration, enterprise application integration (EAI), and business-to-business (B2B) communication, whether in the cloud, on premises, or both.
+For example, here are just a few workloads you can automate with logic apps:
+✑ Process and route orders across on-premises systems and cloud services.
+✑ Send email notifications with Office 365 when events happen in various systems, apps, and services.
+✑ Move uploaded files from an SFTP or FTP server to Azure Storage.
+✑ Monitor tweets for a specific subject, analyze the sentiment, and create alerts or tasks for items that need review.
+
+A content delivery network (CDN) is a distributed network of servers that can efficiently deliver web content to users. CDNs store cached content on edge servers in point-of-presence (POP) locations that are close to end users, to minimize latency.
+Azure Content Delivery Network (CDN) offers developers a global solution for rapidly delivering high-bandwidth content to users by caching their content at strategically placed physical nodes across the world. Azure CDN can also accelerate dynamic content, which cannot be cached, by leveraging various network optimizations using CDN POPs. For example, route optimization to bypass Border Gateway Protocol (BGP).
+The benefits of using Azure CDN to deliver web site assets include:
+✑ Better performance and improved user experience for end users, especially when using applications in which multiple round-trips are required to load content.
+✑ Large scaling to better handle instantaneous high loads, such as the start of a product launch event.
+✑ Distribution of user requests and serving of content directly from edge servers so that less traffic is sent to the origin server.
+
+IoT Hub (Internet of things Hub) provides data from millions of sensors.
+IoT Hub is a managed service, hosted in the cloud, that acts as a central message hub for bi-directional communication between your IoT application and the devices it manages. You can use Azure IoT Hub to build IoT solutions with reliable and secure communications between millions of IoT devices and a cloud- hosted solution backend. You can connect virtually any device to IoT Hub.
+There are two storage services IoT Hub can route messages to -- Azure Blob Storage and Azure Data Lake Storage Gen2 (ADLS Gen2) accounts. Azure Data
+Lake Storage accounts are hierarchical namespace-enabled storage accounts built on top of blob storage. Both of these use blobs for their storage.
+Data Lake: is typical storage for IoT Hub
+
+The Azure portal offers three ways to create a VM:
+✑ Using the graphical portal.
+✑ Using the Azure Cloud Shell using Bash.
+✑ Using the Azure Cloud Shell using PowerShell. 
+
+Azure Advisor does not provide recommendations on how to improve the security of an Azure AD environment.
+
+Azure Advisor does not provide recommendations on how to configure network settings on Azure virtual machines.
+
+Azure virtual machines provide operation system virtualization.
+Azure Virtual Machines (VM) is one of several types of on-demand, scalable computing resources that Azure offers. Typically, you choose a VM when you need more control over the computing environment than the other choices offer.
