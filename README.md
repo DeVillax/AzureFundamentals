@@ -218,3 +218,49 @@ Azure Advisor does not provide recommendations on how to configure network setti
 
 Azure virtual machines provide operation system virtualization.
 Azure Virtual Machines (VM) is one of several types of on-demand, scalable computing resources that Azure offers. Typically, you choose a VM when you need more control over the computing environment than the other choices offer.
+
+Azure Container Instances provide portable environments for virtualized applications.
+Containers are becoming the preferred way to package, deploy, and manage cloud applications. Azure Container Instances offers the fastest and simplest way to run a container in Azure, without having to manage any virtual machines and without having to adopt a higher-level service.
+Containers offer significant startup benefits over virtual machines (VMs). Azure Container Instances can start containers in Azure in seconds, without the need to provision and manage VMs.
+
+Azure App Service is used to build, deploy and scale web apps.
+Azure App Service is a platform-as-a-service (PaaS) offering that lets you create web and mobile apps for any platform or device and connect to data anywhere, in the cloud or on-premises. App Service includes the web and mobile capabilities that were previously delivered separately as Azure Websites and Azure Mobile Services.
+
+Azure Security Center is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud - whether they're in Azure or not - as well as on premises.
+
+The advanced monitoring capabilities in Security Center also let you track and manage compliance and governance over time. The overall compliance provides you with a measure of how much your subscriptions are compliant with policies associated with your workload.
+
+DDoS is a type of attack that tries to exhaust application resources. The goal is to affect the applicationג€™s availability and its ability to handle legitimate requests.
+DDoS attacks can be targeted at any endpoint that is publicly reachable through the internet.
+Azure has two DDoS service offerings that provide protection from network attacks: DDoS Protection Basic and DDoS Protection Standard.
+DDoS Basic protection is integrated into the Azure platform by default and at no extra cost.
+You have the option of paying for DDoS Standard. It has several advantages over the basic service, including logging, alerting, and telemetry. DDoS Standard can generate reports that contain details of attempted attacks as required in this question.
+
+To monitor threats by using sensors, you would use Azure Advanced Threat Protection (ATP).
+Azure Advanced Threat Protection (ATP) is a cloud-based security solution that leverages your on-premises Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
+Sensors are software packages you install on your servers to upload information to Azure ATP.
+
+To enforce MFA based on a condition, you would use Azure Active Directory Identity Protection.
+Azure AD Identity Protection helps you manage the roll-out of Azure Multi-Factor Authentication (MFA) registration by configuring a Conditional Access policy to require MFA registration no matter what modern authentication app you are signing in to.
+
+A network security group works like a firewall. You can attach a network security group to a virtual network and/or individual subnets within the virtual network.
+You can also attach a network security group to a network interface assigned to a virtual machine. You can use multiple network security groups within a virtual network to restrict traffic between resources such as virtual machines and subnets.
+You can filter network traffic to and from Azure resources in an Azure virtual network with a network security group. A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources.
+In this question, we need to add a rule to the network security group to allow the connection to the virtual machine on port 80 (HTTP).
+
+The just-in-time (JIT) virtual machine (VM) access feature in Azure Security Center allows you to lock down inbound traffic to your Azure Virtual Machines. This reduces exposure to attacks while providing easy access when you need to connect to a VM.
+
+Azure Bastion helps protecting remote access to VMs
+
+You can restrict traffic to multiple virtual networks with a single Azure firewall.
+Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources. It's a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability.
+You can centrally create, enforce, and log application and network connectivity policies across subscriptions and virtual networks. Azure Firewall uses a static public IP address for your virtual network resources allowing outside firewalls to identify traffic originating from your virtual network.
+
+Azure Traffic Manager is a DNS-based load balancing solution. It is not used to ensure that a virtual machine named VM1 is accessible from the Internet over
+HTTP.
+To ensure that a virtual machine named VM1 is accessible from the Internet over HTTP, you need to modify a network security group or Azure Firewall.
+In this question, we need to add a rule to a network security group or Azure Firewall to allow the connection to the virtual machine on port 80 (HTTP).
+
+You would use the Azure Activity Log, not Access Control to view which user turned off a specific virtual machine during the last 14 days.
+Activity logs are kept for 90 days. You can query for any range of dates, as long as the starting date isn't more than 90 days in the past.
+In this question, we would create a filter to display shutdown operations on the virtual machine in the last 14 days.
