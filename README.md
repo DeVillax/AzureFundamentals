@@ -301,3 +301,11 @@ Azure Information Protection is used to automatically add a watermark to Microso
 You use Azure Information Protection labels to apply classification to documents and emails. When you do this, the classification is identifiable regardless of where the data is stored or with whom itג€™s shared. The labels can include visual markings such as a header, footer, or watermark.
 
  The Microsoft Privacy Statement explains what personal data Microsoft processes, how Microsoft processes the data, and the purpose of processing the data
+ 
+ The Standard, Professional Direct, and Premier support plans have technical support for engineers via email and phone. The Developer support plan has only technical support for engineers via email.
+ 
+ The Premier support plan provides customer specific architectural support such as design reviews, performance tuning, configuration and implementation assistance delivered by Microsoft Azure technical specialists.
+ 
+ Azure customers with an Azure Enterprise Agreement (EA), Microsoft Customer Agreement (MCA), or Microsoft Partner Agreement (MPA) can use Azure Cost Management.
+Cost management is the process of effectively planning and controlling costs involved in your business.
+Cost management tasks are normally performed by finance, management, and app teams. Azure Cost Management + Billing helps organizations plan with cost in mind. It also helps to analyze costs effectively and take action to optimize cloud spending.
